@@ -127,8 +127,8 @@ function showPosition(position) {
   document.getElementById("kinhdo").innerText = "Kinh độ: " + position.coords.longitude;
 }
 // Đặt thời gian bắt đầu và thời gian kết thúc
-let start = new Date('Mon 10 2023 15:00:00 GMT+0000').getTime();
-let end = new Date('Mon Aug 20 2023 15:30:00 GMT+0000').getTime();
+let start = new Date('Mon 10 2024 15:00:00 GMT+0000').getTime();
+let end = new Date('Mon Aug 20 2024 15:30:00 GMT+0000').getTime();
 
 // Thiết lập khoảng thời gian mỗi lần lặp
 let interval = 1000; // mỗi giây
